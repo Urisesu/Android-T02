@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Programa02</string>
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="btn_login_text">Iniciar Sesión</string>
+    <string name="forgot_password">Olvidaste tu contraseña</string>
+    <string name="error_field_require">Campo requerido</string>
+    <string name="login_success">Exitoso!!</string>
+    <string name="login_fail">Idiot!!</string>
+</resources>

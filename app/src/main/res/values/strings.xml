@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Programa02</string>
+    <string name="username">User name</string>
+    <string name="password">Password</string>
+    <string name="btn_login_text">Login</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="error_field_require">Field Required</string>
+    <string name="login_success">Success!!</string>
+    <string name="login_fail">Fail!!</string>
+
 </resources>

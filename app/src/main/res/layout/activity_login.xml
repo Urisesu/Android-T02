@@ -11,37 +11,41 @@
         android:src="@drawable/and"
         android:layout_width="match_parent"
         android:layout_height="200dp" />
+
     <EditText
         android:id="@+id/text_username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Username"
+        android:hint="@string/username"
         android:layout_marginTop="6dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"/>
+
     <EditText
         android:id="@+id/text_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Password"
+        android:hint="@string/password"
         android:inputType="textPassword"
         android:layout_marginTop="6dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp" />
+
     <Button
         android:id="@+id/button_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
-        android:text="Login"/>
+        android:text="@string/btn_login_text"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Forgot Password"
+        android:text="@string/forgot_password"
         android:gravity="center"
         android:padding="20dp"
         android:layout_marginTop="6dp"/>
