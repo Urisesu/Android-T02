@@ -7,5 +7,12 @@
     <string name="error_field_require">Field Required</string>
     <string name="login_success">Success!!</string>
     <string name="login_fail">Fail!!</string>
-
+    <string-array name="opciones">
+        <item>Lista personalizada!!</item>
+        <item>Opción 2</item>
+        <item>Opción 3</item>
+        <item>Opción 4</item>
+        <item>Opción 5</item>
+        <item>Opción 6</item>
+    </string-array>
 </resources>
