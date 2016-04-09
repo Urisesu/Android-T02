@@ -48,14 +48,14 @@ public class List extends Fragment{
                 startActivity(intent);
 
 
-                //if (position == 0) {
-                //Intent intent = new Intent(getActivity(), Splah.class);
-                //startActivity(intent);
-                //} else {
-                //Intent intent = new Intent(getActivity(), ContainerEjemplos.class);
-                //intent.putExtra("numeroEjemplo", position);
-                //startActivity(intent);
-                //}
+                if (position == 0) {
+                Intent inten = new Intent(getActivity(), Splah.class);
+                startActivity(inten);
+                } else {
+                Intent inten = new Intent(getActivity(), ContainerEjemplos.class);
+                inten.putExtra("numeroEjemplo", position);
+                startActivity(inten);
+                }
             }
 
         });

@@ -19,9 +19,10 @@ public class customListAdapter extends ArrayAdapter<Car>{
     private Car[] carros;
     private Context context;
 
-    public customListAdapter(Context context, int resource, Car[] objects) {
+    public customListAdapter(Context context, Car[] objects) {
         super(context, R.layout.item_custom_list , objects);
-        carros = objects;
+
+        this.carros = objects;
         this.context = context;
     }
 
@@ -30,14 +31,14 @@ public class customListAdapter extends ArrayAdapter<Car>{
         LayoutInflater inflater = LayoutInflater.from(context);
         convertView = inflater.inflate(R.layout.item_custom_list,null);
 
-        ImageView imagenCarro = (ImageView) convertView.findViewById(R.id.imagen);  //check id
+        ImageView imagenCarro = (ImageView) convertView.findViewById(R.id.imagen);
         imagenCarro.setImageResource(carros[position].getImagen());
 
         TextView nombreCarro = (TextView) convertView.findViewById(R.id.textNombre);
-        nombreCarro = carros[position].getNombre();
+        nombreCarro.setText(carros[position].getNombre());
 
-        TextView descriptionCarro = (TextView) convertView.findViewById(R.id); //Check id
-        descriptionCarro = carros[position].getDescripcion();
+        TextView descriptionCarro = (TextView) convertView.findViewById(R.id.textDescription);
+        descriptionCarro.setText(carros[position].getDescripcion());
 
         TextView ratingCarro = (TextView) convertView.findViewById(R.id.textRating);
         ratingCarro.setText(String.valueOf(carros[position].getRating()));
